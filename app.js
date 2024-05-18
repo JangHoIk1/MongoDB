@@ -60,6 +60,9 @@ app.post("/", function (req, res) {
   res.send("Post request가 왔습니다.");
 })
 
+app.put("/", function (req, res) {
+  res.send("Put request가 왔습니다.");
+})
 
 app.use(logger("dev"));
 // app.use('/', indexRouter);
